@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Custom styling for lists */
+ul.popular-genres {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol.popular-genres {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0;
+}
+
+ul.featured-games {
+    list-style-type: none;
+    padding: 0;
+}
+
